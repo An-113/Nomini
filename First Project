@@ -1,0 +1,13 @@
+import random
+
+T=["Chess","Book","Painting","Colouring","A new course","Workout","A new game"]
+D=["Noodles","Fried rice","Cake","New pretty drink","bread","Fish"]
+
+kindofthing=int(input("Do you want to try a new dish (1) or a new thing (2) ? = "))
+
+if kindofthing==2:
+    f1=random.choice(T)
+    print(f1)
+else:
+    f2=random.choice(D)
+    print(f2)
