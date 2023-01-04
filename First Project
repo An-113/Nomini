@@ -1,7 +1,7 @@
 import random
 
 T=["Chess","Book","Painting","Colouring","A new course","Workout","A new game"]
-D=["Noodles","Fried rice","Cake","New pretty drink","bread","Fish"]
+D=["Noodles","Fried rice","Cake","Make a new pretty drink","try making bread","Fish"]
 
 kindofthing=int(input("Do you want to try a new dish (1) or a new thing (2) ? = "))
 
